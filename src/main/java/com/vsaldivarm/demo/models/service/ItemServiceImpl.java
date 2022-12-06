@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
-public class ItemServiceI implements ItemService {
+public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private RestTemplate clientRest;
